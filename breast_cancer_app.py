@@ -357,8 +357,8 @@ def main():
                 plot_metrics(metrics)          
     
     st.sidebar.subheader("ABOUT")
-    st.sidebar.write('By: Vishva Desai')
-    st.sidebar.write("Github: https://github.com/vishvadesai9")            
+    st.sidebar.write('By: Harry Wang')
+    st.sidebar.write("Github Reference: https://github.com/vishvadesai9")            
     
             
     

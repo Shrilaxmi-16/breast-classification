@@ -245,8 +245,10 @@ def main():
             st.dataframe(y_train)
         
         st.sidebar.subheader("Choose Classifier")
-        classifier = st.sidebar.selectbox("Classifier", ("Support Vector Machine (SVM)", "Logistic Regression", "Random Forest", 'KNN', 'Decision Tree', 'Gaussian Naive Bayes'))
+        #classifier = st.sidebar.selectbox("Classifier", ("Support Vector Machine (SVM)", "Logistic Regression", "Random Forest", 'KNN', 'Decision Tree', 'Gaussian Naive Bayes'))
+        classifier = st.sidebar.selectbox("Classifier", ("Logistic Regression", "Random Forest", 'KNN'))
 
+        
         if classifier == 'Support Vector Machine (SVM)':
             st.sidebar.subheader("Model Hyperparameters")
             #choose parameters

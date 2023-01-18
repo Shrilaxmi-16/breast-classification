@@ -51,7 +51,7 @@ def main():
     def split(df):
         y = df['target']
         x = df.drop(columns=['target'])
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=3)
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
         return x_train, x_test, y_train, y_test
     
    

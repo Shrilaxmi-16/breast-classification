@@ -31,3 +31,51 @@ Instructor: [Dr. Hema Subramaniam](https://scholar.google.com/citations?user=JFp
 
 ## Infographics of this Project
 <img src="https://raw.githubusercontent.com/WangHuangHan/Breast-Cancer-Classification-with-Streamlit/main/images/Breast%20Cancer%20Diagnosis.png" width="900">
+
+## Streamlit Breast Cancer Detection App Explanation ([Link](https://wanghuanghan-breastcancer-breast-cancer-app-yp6vds.streamlit.app/))
+**Important Note:** Please refer to this file [breast_cancer_app.py](https://raw.githubusercontent.com/WangHuangHan/Breast-Cancer-Classification-with-Streamlit/main/breast_cancer_app.py).
+
+### Section 1: Importing Libraries
+
+The initial part involves importing the necessary libraries and modules required for the application. These include libraries for data manipulation (`pandas`, `numpy`), visualization (`seaborn`, `matplotlib`, `plotly`), machine learning models (`sklearn`), and the Streamlit framework (`streamlit`).
+
+---
+
+### Section 2: Define Main Function
+
+The `main()` function sets up the Streamlit app's layout, title, and initial configurations like page icon, title, and sidebar title.
+
+---
+
+### Section 3: Data Loading and Processing Functions
+
+- `load_data()`: Loads the Breast Cancer dataset using `load_breast_cancer()` from `sklearn`, processes it into a DataFrame, and performs label encoding.
+  
+- `split(df)`: Splits the dataset into training and testing sets using `train_test_split()` from `sklearn`.
+
+---
+
+### Section 4: Data Analysis Section
+
+This part handles the visualizations and displays for the data analysis section of the app. It includes:
+- Displaying raw data and features
+- Generating different types of plots based on user selection (scatter matrix, counts of malignant and benign cases, heatmap, scatter plots)
+
+---
+
+### Section 5: Prediction Section
+
+This section allows users to select different classifiers (Logistic Regression, Random Forest, KNN) and their hyperparameters, then displays metrics such as accuracy, precision, recall, and confusion matrices for the chosen classifier.
+
+The workflow includes:
+- Choosing a classifier from the sidebar
+- Selecting hyperparameters for the chosen classifier
+- Displaying classification results and metrics based on user selections
+
+---
+
+### Section 6: About Section
+
+At the sidebar's bottom, information about the app creator and a reference to the app's GitHub repository are provided.
+
+

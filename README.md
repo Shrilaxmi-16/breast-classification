@@ -16,8 +16,8 @@ Final project for the **WQD7003 | Data Analytics** course at the University of M
 Team members:
 
 - [Huang Han Wang](https://www.linkedin.com/in/huang-han-harry-wang-517386a8/)
-- Xinrui Guo
 - [Shuangdan Ni](https://www.linkedin.com/in/%E5%8F%8C%E4%B8%B9-%E5%80%AA-bb561426a/)
+- Xinrui Guo
 - Ding Jie
 - Naxin Dong
 

@@ -17,7 +17,7 @@ Team members:
 
 - [Huang Han Wang](https://www.linkedin.com/in/huang-han-harry-wang-517386a8/)
 - Xinrui Guo
-- Shuangdan Ni
+- [Shuangdan Ni](https://www.linkedin.com/in/%E5%8F%8C%E4%B8%B9-%E5%80%AA-bb561426a/)
 - Ding Jie
 - Naxin Dong
 

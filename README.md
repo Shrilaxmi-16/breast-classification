@@ -1,4 +1,6 @@
 # Breast Cancer Classification Using Machine Learning with Streamlit
+- Please click the Streamlit Link [here](https://breast-cancer-classification-with-app-demo.streamlit.app/) to interact with the App.
+
 <img src="https://raw.githubusercontent.com/WangHuangHan/Breast-Cancer-Classification-with-Streamlit/main/images/SS%20from%20Streamlit%20Deployment1.png" width="800">
 
 ## Description
@@ -32,7 +34,7 @@ Instructor: [Dr. Hema Subramaniam](https://scholar.google.com/citations?user=JFp
 ## Infographics of this Project
 <img src="https://raw.githubusercontent.com/WangHuangHan/Breast-Cancer-Classification-with-Streamlit/main/images/Breast%20Cancer%20Diagnosis.png" width="900">
 
-## Streamlit Breast Cancer Detection App Explanation ([Link](https://wanghuanghan-breastcancer-breast-cancer-app-yp6vds.streamlit.app/))
+## Streamlit Breast Cancer Detection App Explanation ([Link](https://breast-cancer-classification-with-app-demo.streamlit.app/))
 **Important Note:** Please refer to this file [breast_cancer_app.py](https://raw.githubusercontent.com/WangHuangHan/Breast-Cancer-Classification-with-Streamlit/main/breast_cancer_app.py).
 
 ### Section 1: Importing Libraries
